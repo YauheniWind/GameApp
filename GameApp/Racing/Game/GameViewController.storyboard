@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gig-bu-7Vn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PermanentMarker-Regular.ttf">
+            <string>PermanentMarker-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Game-->
+        <scene sceneID="qzm-Hw-HXs">
+            <objects>
+                <viewController storyboardIdentifier="GameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gig-bu-7Vn" customClass="GameViewController" customModule="Racing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0dY-ge-MQN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBrain" translatesAutoresizingMaskIntoConstraints="NO" id="jam-uD-g6B">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRightEye" translatesAutoresizingMaskIntoConstraints="NO" id="mtr-RH-8oi">
+                                <rect key="frame" x="0.0" y="277" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="7wD-vl-0QJ">
+                                <rect key="frame" x="87" y="844" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="xgS-tn-jQu">
+                                <rect key="frame" x="87" y="734" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="WkR-x1-HKI">
+                                <rect key="frame" x="87" y="153" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="6ng-3A-BMI">
+                                <rect key="frame" x="87" y="277" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-zJ-qum">
+                                <rect key="frame" x="87" y="401" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="ijp-DE-qSc">
+                                <rect key="frame" x="87" y="524" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="LmA-tF-WIX">
+                                <rect key="frame" x="87" y="639" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icRoad" translatesAutoresizingMaskIntoConstraints="NO" id="4xm-dQ-XpH">
+                                <rect key="frame" x="87" y="30" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfe-1I-CbW">
+                                <rect key="frame" x="102" y="30" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icZombie" translatesAutoresizingMaskIntoConstraints="NO" id="BZZ-Qc-jXf">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icLeftEye" translatesAutoresizingMaskIntoConstraints="NO" id="B2I-Kq-T3J">
+                                <rect key="frame" x="335" y="411" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icEye" translatesAutoresizingMaskIntoConstraints="NO" id="N9r-yZ-Ayt">
+                                <rect key="frame" x="-10" y="0.0" width="424" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icEye" translatesAutoresizingMaskIntoConstraints="NO" id="Kb6-tl-9kL">
+                                <rect key="frame" x="0.0" y="814" width="424" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaB-ta-6Cc">
+                                <rect key="frame" x="170" y="731" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d1q-FY-VbW">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qiH-k2-ebC" appends="YES" id="KP7-3n-Thy"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmq-sc-cWK">
+                                <rect key="frame" x="126" y="76" width="173" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PermanentMarker-Regular" family="Permanent Marker" pointSize="35"/>
+                                <color key="textColor" red="0.9978558421" green="0.58816277979999998" blue="0.60783559080000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cz4-Uj-KTA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jam-uD-g6B" firstAttribute="top" secondItem="0dY-ge-MQN" secondAttribute="top" id="GdF-RF-cY7"/>
+                            <constraint firstAttribute="bottom" secondItem="jam-uD-g6B" secondAttribute="bottom" id="P7s-4v-pWG"/>
+                            <constraint firstItem="jam-uD-g6B" firstAttribute="leading" secondItem="cz4-Uj-KTA" secondAttribute="leading" id="lj4-0T-dVM"/>
+                            <constraint firstItem="jam-uD-g6B" firstAttribute="trailing" secondItem="cz4-Uj-KTA" secondAttribute="trailing" id="shj-g4-CYF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Game" id="nD4-ps-MCk"/>
+                    <connections>
+                        <outlet property="avatarImage" destination="d1q-FY-VbW" id="AhS-Kh-4pa"/>
+                        <outlet property="countScoreLabel" destination="nmq-sc-cWK" id="C5d-Fv-Z73"/>
+                        <outlet property="imageLeftEye" destination="B2I-Kq-T3J" id="r3p-EW-MXP"/>
+                        <outlet property="imageRightEye" destination="mtr-RH-8oi" id="ZER-b3-FUs"/>
+                        <outlet property="imageRoadFive" destination="ijp-DE-qSc" id="dg7-Oo-7ZG"/>
+                        <outlet property="imageRoadFour" destination="Bg5-zJ-qum" id="gWZ-43-1ea"/>
+                        <outlet property="imageRoadOne" destination="4xm-dQ-XpH" id="PNN-Qk-wAo"/>
+                        <outlet property="imageRoadSeven" destination="xgS-tn-jQu" id="9OE-GM-KRG"/>
+                        <outlet property="imageRoadSix" destination="LmA-tF-WIX" id="lPg-po-ABS"/>
+                        <outlet property="imageRoadTree" destination="6ng-3A-BMI" id="XCs-DO-P86"/>
+                        <outlet property="imageRoadTwo" destination="WkR-x1-HKI" id="EYh-WX-epT"/>
+                        <outlet property="imageViewEight" destination="7wD-vl-0QJ" id="G2S-wd-0oa"/>
+                        <outlet property="moveImage" destination="YaB-ta-6Cc" id="ZOz-sU-BzH"/>
+                        <outlet property="zombiView" destination="nfe-1I-CbW" id="lBg-8y-Nxf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WsA-A3-oBb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="qiH-k2-ebC">
+                    <connections>
+                        <action selector="runnerPanGesture:" destination="gig-bu-7Vn" id="L7E-xg-vrE"/>
+                        <outlet property="delegate" destination="YaB-ta-6Cc" id="7rr-oG-hfr"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="66.964285714285708"/>
+        </scene>
+        <!--Return View Controller-->
+        <scene sceneID="E35-br-JCW">
+            <objects>
+                <viewController storyboardIdentifier="ReturnViewController" id="N4k-3e-Mtr" customClass="ReturnViewController" customModule="Racing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Ku-WD-cbx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rV-ZU-x4O">
+                                <rect key="frame" x="20" y="107" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PermanentMarker-Regular" family="Permanent Marker" pointSize="60"/>
+                                <color key="textColor" red="0.9978558421" green="0.58816277979999998" blue="0.60783559080000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtP-oo-CeF">
+                                <rect key="frame" x="108" y="399" width="201" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PermanentMarker-Regular" family="Permanent Marker" pointSize="60"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" red="0.70001775030000002" green="0.25067448619999999" blue="0.2901859879" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="returnButton:" destination="N4k-3e-Mtr" eventType="touchUpInside" id="nCp-Pi-3ca"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ArG-ZY-ajH"/>
+                        <color key="backgroundColor" red="0.037691388280000002" green="0.59585392479999999" blue="0.60000592470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="recordLable" destination="6rV-ZU-x4O" id="IUB-M6-FmI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9m-Jr-5nG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="827.536231884058" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icBrain" width="278" height="497"/>
+        <image name="icEye" width="497" height="132"/>
+        <image name="icLeftEye" width="78" height="72"/>
+        <image name="icRightEye" width="84" height="78"/>
+        <image name="icRoad" width="255" height="132"/>
+        <image name="icZombie" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
